@@ -1,0 +1,119 @@
+[Files]
+File0=Gegner.java
+File1=Grafikoberfläche.java
+File2=Leever_UntergrundGegner.java
+File3=Link.java
+File4=Molblin_Bogenschütze.java
+File5=Npc.java
+File6=Octoroc_Schießgegner.java
+
+[Comment: 2]
+X=47
+Y=65
+W=0
+H=103
+FontSize=10
+FontName=MS Sans Serif
+Comment=Die Basics müssen noch Abstract gemacht werden.
+
+[Comment: 3]
+X=61
+Y=41
+W=171
+H=41
+FontSize=10
+FontName=MS Sans Serif
+Comment=Basics Abstrakt machen!_;_
+
+[Box:  - Gegner]
+X=243
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Grafikoberfläche]
+X=755
+Y=255
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Leever_UntergrundGegner]
+X=24
+Y=651
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Link]
+X=503
+Y=48
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Molblin_Bogenschütze]
+X=238
+Y=651
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Npc]
+X=750
+Y=49
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Octoroc_Schießgegner]
+X=429
+Y=649
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+ShowConnections=0
+Fontname=MS Sans Serif
+Fontsize=10
+ShowObjectDiagram=0
+
+[Connections]
+V0=Gegner#Comment: 3#Comment####0#0#-1
+V1=Leever_UntergrundGegner#Gegner#Inheritends####0#0#0
+V2=Molblin_Bogenschütze#Gegner#Inheritends####0#0#0
+V3=Octoroc_Schießgegner#Gegner#Inheritends####0#0#0
+
+[Interactive]
+I0=
+

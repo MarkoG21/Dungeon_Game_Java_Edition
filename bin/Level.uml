@@ -1,0 +1,198 @@
+[Files]
+File0=ColorTest.java
+File1=Faggot.java
+File2=GameLoop.java
+File3=GamePanel.java
+File4=Gegner.java
+File5=GUI_Tests.java
+File6=Leever_UntergrundGegner.java
+File7=Level.java
+File8=LevelNr1.java
+File9=Link.java
+File10=Molblin_Bogenschütze.java
+File11=Npc.java
+File12=Octoroc_Schießgegner.java
+File13=SpielOberflaeche.java
+File14=StartOberflaeche.java
+
+[Box:  - ColorTest]
+X=20
+Y=2316
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Faggot]
+X=254
+Y=1723
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - GameLoop]
+X=963
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - GamePanel]
+X=768
+Y=2316
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Gegner]
+X=450
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - GUI_Tests]
+X=251
+Y=2316
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Leever_UntergrundGegner]
+X=20
+Y=986
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Level]
+X=735
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - LevelNr1]
+X=712
+Y=409
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Link]
+X=716
+Y=986
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Molblin_Bogenschütze]
+X=256
+Y=409
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Npc]
+X=20
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Octoroc_Schießgegner]
+X=20
+Y=409
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - SpielOberflaeche]
+X=819
+Y=1723
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - StartOberflaeche]
+X=20
+Y=1723
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+ShowConnections=0
+Fontname=MS Sans Serif
+Fontsize=10
+ShowObjectDiagram=0
+
+[Connections]
+V0=GameLoop#SpielOberflaeche#AssociationDirected####0#0#0
+V1=GameLoop#LevelNr1#AssociationDirected####0#0#0
+V2=Gegner#SpielOberflaeche#AssociationDirected####0#0#0
+V3=Leever_UntergrundGegner#Gegner#Inheritends####0#0#0
+V4=LevelNr1#Level#Inheritends####0#0#0
+V5=LevelNr1#GamePanel#AssociationDirected####0#0#0
+V6=LevelNr1#SpielOberflaeche#AssociationBidirectional####0#0#0
+V7=LevelNr1#Link#AssociationDirected####0#0#0
+V8=LevelNr1#Leever_UntergrundGegner#AssociationDirected####0#0#0
+V9=Link#SpielOberflaeche#AssociationDirected####0#0#0
+V10=Molblin_Bogenschütze#Gegner#Inheritends####0#0#0
+V11=Octoroc_Schießgegner#Gegner#Inheritends####0#0#0
+V12=SpielOberflaeche#GamePanel#AssociationDirected####0#0#0
+
+[Interactive]
+I0=
+

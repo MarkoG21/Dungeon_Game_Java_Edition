@@ -1,0 +1,66 @@
+[Files]
+File0=Gegner.java
+File1=Link.java
+File2=Molblin_Bogenschütze.java
+File3=Octoroc_schießgegner.java
+
+[Box:  - Gegner]
+X=123
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Link]
+X=306
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Molblin_Bogenschütze]
+X=20
+Y=649
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Octoroc_schießgegner]
+X=214
+Y=649
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+ShowConnections=0
+Fontname=MS Sans Serif
+Fontsize=10
+ShowObjectDiagram=0
+
+[Connections]
+V0=Molblin_Bogenschütze#Gegner#Inheritends####0#0#0
+V1=Octoroc_schießgegner#Gegner#Inheritends####0#0#0
+
+[Interactive]
+I0=
+

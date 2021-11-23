@@ -1,0 +1,106 @@
+[Files]
+File0=Gegner.java
+File1=Grafikoberfläche.java
+File2=Leever_UntergrundGegner.java
+File3=Link.java
+File4=Molblin_Bogenschütze.java
+File5=Npc.java
+File6=Octoroc_Schießgegner.java
+
+[Box:  - Gegner]
+X=424
+Y=36
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - GrafikOberfläche]
+X=1020
+Y=163
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Leever_UntergrundGegner]
+X=134
+Y=88
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Link]
+X=630
+Y=32
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Molblin_Bogenschütze]
+X=420
+Y=396
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Npc]
+X=1023
+Y=225
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Octoroc_Schießgegner]
+X=198
+Y=385
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+ShowConnections=0
+Fontname=MS Sans Serif
+Fontsize=10
+ShowObjectDiagram=0
+
+[Connections]
+V0=Leever_UntergrundGegner#Gegner#Inheritends####0#0#0
+V1=Molblin_Bogenschütze#Gegner#Inheritends####0#0#0
+V2=Octoroc_Schießgegner#Gegner#Inheritends####0#0#0
+
+[Interactive]
+I0=
+
+[Window]
+Left=-8
+Top=-30
+Width=1440
+Height=739
+
