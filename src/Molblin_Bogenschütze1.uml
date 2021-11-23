@@ -1,0 +1,155 @@
+[Files]
+File0=GameLoop.java
+File1=GamePanel.java
+File2=Gegner.java
+File3=Leever_UntergrundGegner.java
+File4=Level.java
+File5=LevelNr1.java
+File6=Link.java
+File7=Molblin_Bogenschütze.java
+File8=Octoroc_Schießgegner.java
+File9=SpielOberflaeche.java
+File10=StartOberflaeche.java
+
+[Box:  - GameLoop]
+X=737
+Y=279
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - GamePanel]
+X=1418
+Y=663
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Gegner]
+X=346
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Leever_UntergrundGegner]
+X=700
+Y=25
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Level]
+X=1230
+Y=28
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - LevelNr1]
+X=1487
+Y=127
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Link]
+X=1986
+Y=69
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Molblin_Bogenschütze]
+X=45
+Y=27
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Octoroc_Schießgegner]
+X=46
+Y=218
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - SpielOberflaeche]
+X=254
+Y=543
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - StartOberflaeche]
+X=44
+Y=544
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+ShowConnections=0
+Fontname=MS Sans Serif
+Fontsize=10
+ShowObjectDiagram=0
+
+[Connections]
+V0=GameLoop#SpielOberflaeche#AssociationDirected####0#0#0
+V1=GameLoop#LevelNr1#AssociationDirected####0#0#0
+V2=Gegner#SpielOberflaeche#AssociationDirected####0#0#0
+V3=Leever_UntergrundGegner#Gegner#Inheritends####0#0#0
+V4=LevelNr1#Level#Inheritends####0#0#0
+V5=LevelNr1#GamePanel#AssociationDirected####0#0#0
+V6=LevelNr1#SpielOberflaeche#AssociationDirected####0#0#0
+V7=LevelNr1#Link#AssociationDirected####0#0#0
+V8=LevelNr1#Leever_UntergrundGegner#AssociationDirected####0#0#0
+V9=Link#SpielOberflaeche#AssociationDirected####0#0#0
+V10=Molblin_Bogenschütze#Gegner#Inheritends####0#0#0
+V11=Octoroc_Schießgegner#Gegner#Inheritends####0#0#0
+V12=SpielOberflaeche#GamePanel#AssociationDirected####0#0#0
+V13=SpielOberflaeche#LevelNr1#AssociationDirected####0#0#0
+
+[Interactive]
+I0=
+
