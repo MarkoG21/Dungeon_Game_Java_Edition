@@ -17,6 +17,9 @@ Its a small tech demo trying to imitate the classic looks, known from The Legend
 ## Credits
 - Credit goes to "Fox" from ZFGC (Sprites of the Character)
 
+# Controls
+Movement: WASD, Attack: Spacebar
+
 # Disclaimer
 This software was part of a school project, its not approved nor endorsed by Nintendo, all rights go to their respectful owners!
 ## DMCA
